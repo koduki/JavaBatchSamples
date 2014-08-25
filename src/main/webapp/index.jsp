@@ -15,6 +15,7 @@
         <ul>
             <li><a href="./webresources/simplejob">Simple Job</a></li>
             <li><a href="./webresources/jobstop">Job Stop</a></li>
+            <li><a href="./webresources/jbatchjob">JBatch Start</a></li>
         </ul>
 
         <h1>Jobs</h1>

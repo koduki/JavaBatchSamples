@@ -30,6 +30,7 @@ public class ApplicationConfig extends Application {
      * If required, comment out calling this method in getClasses().
      */
     private void addRestResourceClasses(Set<Class<?>> resources) {
+        resources.add(pascal.orz.cn.simplejbatch.JBatchJobResource.class);
         resources.add(pascal.orz.cn.simplejbatch.JobStopResource.class);
         resources.add(pascal.orz.cn.simplejbatch.SimpleJobResource.class);
     }
